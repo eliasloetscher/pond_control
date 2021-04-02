@@ -8,13 +8,14 @@ from sqlite3 import Error
 from datetime import datetime
 from datetime import date
 
+
 def create_connection():
     """ create a database connection to the SQLite database
         specified by db_file
     :param db_file: database file
     :return: Connection object or None
     """
-    db_file = '/home/pi/teich.db'
+    db_file = '/home/pi/Documents/dev/pond_control/teich.db'
 
     conn = None
     try:

@@ -13,7 +13,7 @@ def create_connection():
     :param db_file: database file
     :return: Connection object or None
     """
-    db_file = '/home/pi/teich.db'
+    db_file = '/home/pi/Documents/dev/pond_control/teich.db'
 
     conn = None
     try:
